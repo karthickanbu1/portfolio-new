@@ -176,8 +176,8 @@ export default function About() {
             {/* Stats Grid */}
             <div ref={statsRef} className="grid grid-cols-2 gap-6">
               <div className="floating-card bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 text-center shadow-xl border border-blue-100 hover:scale-105 transition-transform duration-300">
-                <div className="text-3xl font-black text-blue-600 mb-2">2+</div>
-                <div className="text-sm font-semibold text-gray-700 uppercase tracking-wider">Years Experience</div>
+                <div className="text-3xl font-black text-blue-600 mb-2">1</div>
+                <div className="text-sm font-semibold text-gray-700 uppercase tracking-wider">Year Experience</div>
               </div>
               <div className="floating-card bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 text-center shadow-xl border border-purple-100 hover:scale-105 transition-transform duration-300">
                 <div className="text-3xl font-black text-purple-600 mb-2">15+</div>
