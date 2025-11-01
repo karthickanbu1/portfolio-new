@@ -14,7 +14,7 @@ export default function Experience() {
     {
       company: "Thirdvizion Labs Private Limited",
       position: "Front-end Developer",
-      period: "07/2025 - 10/2025",
+      period: "07/2025 - Present",
       description: "Collaborated on company website and real-time construction projects, developing immersive interactive experiences.",
       achievements: [
         "Resolved Django-React API integration challenges and organized file structures",
