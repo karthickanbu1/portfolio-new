@@ -22,7 +22,7 @@ export default function Experience() {
         "Implemented structured Git workflow for team collaboration",
         "Partnered with UI/UX designers for optimal user experiences"
       ],
-      tech: ["React", "Three.js", "GSAP", "Django", "Git"],
+      tech: ["React", "Three.js", "GSAP", "Python","Next.js" ,"Django", "Git"],
       icon: "⚡",
       intensity: "high"
     }
@@ -128,14 +128,7 @@ export default function Experience() {
       stagger: 0.2
     })
 
-    // Pulse glow effect
-    gsap.to('.pulse-glow', {
-      boxShadow: "0 0 30px #ffffff, 0 0 60px #666666",
-      duration: 2,
-      repeat: -1,
-      yoyo: true,
-      ease: "sine.inOut"
-    })
+ 
 
     // Text shimmer effect
     gsap.to('.shimmer-text', {

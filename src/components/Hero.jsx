@@ -154,7 +154,7 @@ export default function Hero() {
         
         <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
           Crafting digital experiences with precision code and minimalist design. 
-          Specializing in React, Next.js, and modern web technologies to build 
+          Specializing in React, Next.js, Python, Django and modern web technologies to build 
           scalable, performant applications.
         </p>
       </div>
@@ -172,13 +172,13 @@ export default function Hero() {
         </a>
         
         <a 
-          href="#contact" 
+          href="#about" 
           className="group relative border-2 border-white text-white px-8 py-4 rounded-none font-mono font-semibold hover:border-gray-300 transition-all duration-300 overflow-hidden"
         >
-          <span className="relative z-10">CONTACT ME</span>
+          <span className="relative z-10">HOVER HERE</span>
           <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           <span className="absolute inset-0 flex items-center justify-center text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
-            CONTACT ME
+           ABOUT ME
           </span>
         </a>
       </div>

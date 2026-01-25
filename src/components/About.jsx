@@ -16,12 +16,13 @@ export default function About() {
   const skills = [
     { name: 'ReactJS', level: 95, color: 'from-blue-500 to-cyan-500' },
     { name: 'JavaScript', level: 90, color: 'from-yellow-500 to-orange-500' },
-    { name: 'NextJS', level: 92, color: 'from-black to-gray-800' },
-    { name: 'Three.js', level: 85, color: 'from-green-500 to-emerald-500' },
+    { name: 'NextJS', level: 72, color: 'from-black to-gray-800' },
+    { name: 'Django', level: 85, color: 'from-green-500 to-emerald-500' },
     { name: 'GSAP', level: 88, color: 'from-green-400 to-blue-500' },
     { name: 'TailwindCSS', level: 94, color: 'from-cyan-500 to-blue-500' },
-    { name: 'RESTful APIs', level: 90, color: 'from-purple-500 to-pink-500' },
-    { name: 'PostgreSQL', level: 80, color: 'from-blue-600 to-indigo-600' }
+    { name: 'Restful APIs', level: 94, color: 'from-cyan-500 to-pink-500' },
+    { name: 'Python', level: 80, color: 'from-purple-500 to-pink-500' },
+    { name: 'Redux', level: 85, color: 'from-blue-600 to-indigo-600' }
   ]
 
   const certifications = [
@@ -157,7 +158,7 @@ export default function About() {
     <div className="space-y-4 text-gray-700 leading-relaxed">
       <p className="text-lg">
         I'm currently working as a <span className="font-bold text-black">Front-End Developer</span> at 
-        <span className="font-semibold text-black"> Thirdvizion Labs Pvt. Ltd.</span> (July 2025 – Present), where I contribute 
+        <span className="font-semibold text-black"> Thirdvizion Labs Pvt. Ltd.</span> (August 2025 – Present), where I contribute 
         to building immersive and dynamic web experiences using modern web technologies.
       </p>
       <p>
@@ -176,11 +177,11 @@ export default function About() {
             {/* Stats Grid */}
             <div ref={statsRef} className="grid grid-cols-2 gap-6">
               <div className="floating-card bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 text-center shadow-xl border border-blue-100 hover:scale-105 transition-transform duration-300">
-                <div className="text-3xl font-black text-blue-600 mb-2">1</div>
-                <div className="text-sm font-semibold text-gray-700 uppercase tracking-wider">Year Experience</div>
+                <div className="text-3xl font-black text-blue-600 mb-2">6 </div>
+                <div className="text-sm font-semibold text-gray-700 uppercase tracking-wider">Months Experience</div>
               </div>
               <div className="floating-card bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 text-center shadow-xl border border-purple-100 hover:scale-105 transition-transform duration-300">
-                <div className="text-3xl font-black text-purple-600 mb-2">15+</div>
+                <div className="text-3xl font-black text-purple-600 mb-2">8+</div>
                 <div className="text-sm font-semibold text-gray-700 uppercase tracking-wider">Projects Completed</div>
               </div>
               <div className="floating-card bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 text-center shadow-xl border border-green-100 hover:scale-105 transition-transform duration-300">

@@ -12,66 +12,102 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Learning Management System",
-      tech: "ReactJS · GSAP · TailwindCSS · OpenAI API · RESTful API",
-      desc: "Full-featured LMS with authentication, course management, assignment dashboard, and integrated AI chatbot using OpenAI API.",
+      title: "E-Learning Website",
+      tech: "ReactJS · GSAP · TailwindCSS · Django · RESTful API",
+desc: "Full-featured Learning Management System with secure authentication, role-based access, course creation and management, interactive assignment dashboards, progress tracking.",
       features: ["AI Chatbot", "JWT Authentication", "GSAP Animations", "Mobile Responsive"],
-      link: "#",
+      link: "https://lms.scopik.in/",
       image: "📚",
       color: "from-blue-500 to-cyan-500",
-      stats: "95% Complete"
+      stats: "100% Complete"
     },
     {
-      title: "Augmented Reality 3D Website Portal",
-      tech: "NextJS · Three.js · TailwindCSS · GSAP · WebXR",
-      desc: "Markerless AR experience using WebXR and NextJS, enabling users to place and interact with 3D models in real-world space.",
-      features: ["WebXR", "Three.js", "Markerless AR", "GSAP Animations"],
-      link: "#",
+      title: "Digital Marketing Agency Website",
+  tech: "React · Strapi CMS · GSAP · TailwindCSS · REST API",
+  desc: "Modern digital marketing agency website with dynamic content powered by Strapi CMS, smooth GSAP animations, and a high-performance React frontend.",
+  features: [
+    "Strapi CMS Integration",
+    "Dynamic Content",
+    "GSAP Animations",
+    "SEO Optimized Pages"
+  ],
+      link: "https://et-thicks-official.vercel.app",
       image: "🔮",
       color: "from-purple-500 to-pink-500",
-      stats: "88% Complete"
+      stats: "98% Complete"
     },
-    {
-      title: "Enterprise Resource Planning Software",
-      tech: "ReactJS · TailwindCSS · GSAP · Parallax.js · Django",
-      desc: "Comprehensive ERP Management System with OTP-based authentication and modern black-and-white themed interface.",
-      features: ["OTP Authentication", "Vendor Management", "Customer Management", "Product Management"],
-      link: "#",
-      image: "💼",
-      color: "from-green-500 to-emerald-500",
-      stats: "92% Complete"
-    },
-    {
-      title: "E-Commerce Analytics Dashboard",
-      tech: "React · D3.js · Chart.js · Node.js · MongoDB",
-      desc: "Real-time analytics dashboard with interactive data visualizations, sales tracking, and customer behavior insights.",
-      features: ["Real-time Data", "Interactive Charts", "Sales Analytics", "Customer Insights"],
-      link: "#",
-      image: "📊",
-      color: "from-yellow-500 to-orange-500",
-      stats: "85% Complete"
-    },
-    {
-      title: "Blockchain Voting System",
-      tech: "Solidity · Web3.js · React · Node.js · IPFS",
-      desc: "Decentralized voting platform ensuring transparency and security through blockchain technology.",
-      features: ["Blockchain", "Smart Contracts", "Decentralized", "Secure Voting"],
-      link: "#",
-      image: "⛓️",
-      color: "from-indigo-500 to-blue-500",
-      stats: "80% Complete"
-    },
-    {
-      title: "AI-Powered Healthcare Assistant",
-      tech: "Python · TensorFlow · React · FastAPI · PostgreSQL",
-      desc: "Healthcare platform with AI diagnostics, patient management, and telemedicine capabilities.",
-      features: ["AI Diagnostics", "Patient Management", "Telemedicine", "Health Analytics"],
-      link: "#",
-      image: "🏥",
-      color: "from-red-500 to-pink-500",
-      stats: "90% Complete"
-    }
-  ]
+
+   {
+  title: "NFC Smart Card Website",
+  tech: "React · GSAP · TailwindCSS · JavaScript",
+  desc: "High-performance NFC smart card website featuring smooth GSAP animations, immersive scroll-based interactions, and a visually engaging product experience.",
+  features: [
+    "Advanced GSAP Animations",
+    "Scroll-Based ",
+    "Responsive UI Design",
+    "High Performance Rendering"
+  ],
+  link: "https://nfc-card-lemon.vercel.app",
+  image: "💳",
+  color: "from-yellow-500 to-orange-500",
+  stats: "70% Complete"
+},
+
+    
+   {
+  title: "Real-Time 3D Curtain Visualization Platform",
+  tech: "React · Three.js · GSAP · TailwindCSS · WebGL",
+  desc: "Interactive real-time 3D curtain visualization platform that allows users to preview and place curtains in a realistic 3D environment using images and spatial rendering.",
+  features: [
+    "Real-Time 3D",
+    "Image-Based Curtain Placement",
+    "Camera Controls",
+    "Smooth GSAP Animations"
+  ],
+  link: "https://curten.vercel.app",
+  image: "🪟",
+  color: "from-green-500 to-emerald-500",
+  stats: "90% Complete"
+},
+
+    
+   {
+  title: "Mobile AR Experience – WebXR",
+  tech: "React · Three.js · WebXR · GSAP · TailwindCSS",
+  desc: "Mobile-based Augmented Reality experience developed using WebXR, allowing users to place and view 3D models on real-world surfaces through the device camera with smooth interactions and animations.",
+  features: [
+    "WebXR Mobile AR",
+    "Surface-Based Model",
+    "Real-Time Camera ",
+    "GSAP-Enhanced Interactions",
+  
+  ],
+  link: "https://thirdvizion.com/augmented_reality",
+  image: "📱",
+  color: "from-indigo-500 to-blue-500",
+  stats: "100% Complete"
+},
+
+
+   {
+  title: "AI-Integrated Learning Management System",
+  tech: "React · Gemini API · TailwindCSS · Django · REST API",
+  desc: "Advanced AI-powered Learning Management System built with React, featuring an intelligent chatbot, AI-generated quizzes, and an interactive AI coding platform to enhance personalized learning experiences.",
+  features: [
+    "AI-Generated Quizzes",
+
+    "AI Coding Practice Platform",
+        "AI Chatbot",
+
+    "Responsive & Scalable UI"
+  ],
+  link: "#",
+  image: "🤖",
+  color: "from-red-500 to-pink-500",
+  stats: "80% Complete"
+},
+
+  ];
 
   useEffect(() => {
     const tl = gsap.timeline({
@@ -150,6 +186,12 @@ export default function Projects() {
   const addToProjectsRef = (el) => {
     if (el && !projectsRef.current.includes(el)) {
       projectsRef.current.push(el)
+    }
+  }
+
+  const handleProjectClick = (link) => {
+    if (link && link !== '#') {
+      window.open(link, '_blank', 'noopener,noreferrer')
     }
   }
 
@@ -270,20 +312,22 @@ export default function Projects() {
 
                 {/* Action Button */}
                 <div className="mt-auto pt-4 border-t border-gray-200">
-                  <button className="w-full bg-gradient-to-r from-gray-900 to-black text-white px-4 py-3 rounded-xl font-semibold hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-300 shadow-lg">
-                    VIEW PROJECT DETAILS
+                  <button 
+                    onClick={() => handleProjectClick(project.link)}
+                    className={`w-full px-4 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:-translate-y-1 border shadow-lg ${
+                      project.link && project.link !== '#'
+                        ? 'bg-gradient-to-r from-gray-900 to-black text-white hover:shadow-xl hover:shadow-blue-500/20 border-gray-300 cursor-pointer'
+                        : 'bg-gray-300 text-gray-500 cursor-not-allowed border-gray-300'
+                    }`}
+                    disabled={!project.link || project.link === '#'}
+                  >
+                    {project.link && project.link !== '#' ? 'VIEW PROJECT DETAILS' : 'COMING SOON'}
                   </button>
                 </div>
               </div>
             </div>
           ))}
         </div>
-
-       
-
-        {/* CTA Section */}
-       
-      
       </div>
     </section>
   )
