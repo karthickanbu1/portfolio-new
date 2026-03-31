@@ -31,7 +31,7 @@ desc: "Full-featured Learning Management System with secure authentication, role
     "GSAP Animations",
     "SEO Optimized Pages"
   ],
-      link: "https://et-thicks-official.vercel.app",
+      link: "https://etthicks.thirdvizion.com/",
       image: "🔮",
       color: "from-purple-500 to-pink-500",
       stats: "98% Complete"
