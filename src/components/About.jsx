@@ -157,7 +157,7 @@ export default function About() {
     </h3>
     <div className="space-y-4 text-gray-700 leading-relaxed">
       <p className="text-lg">
-        I'm currently working as a <span className="font-bold text-black">Front-End Developer</span> at 
+        I'm currently working as a <span className="font-bold text-black">Full Stack Developer</span> at 
         <span className="font-semibold text-black"> Thirdvizion Labs Pvt. Ltd.</span> (August 2025 – Present), where I contribute 
         to building immersive and dynamic web experiences using modern web technologies.
       </p>
