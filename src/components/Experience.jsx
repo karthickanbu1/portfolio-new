@@ -13,7 +13,7 @@ export default function Experience() {
   const experiences = [
     {
       company: "Thirdvizion Labs Private Limited",
-      position: "Front-end Developer",
+      position: "Full Stack Developer",
       period: "07/2025 - Present",
       description: "Collaborated on company website and real-time construction projects, developing immersive interactive experiences.",
       achievements: [
