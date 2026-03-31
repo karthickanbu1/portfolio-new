@@ -149,7 +149,7 @@ export default function Hero() {
         <div className="w-24 h-1 bg-white mx-auto mb-8 opacity-60"></div>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light tracking-widest uppercase letter-spacing-4">
-          Frontend Developer
+          Full stack Developer
         </p>
         
         <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
